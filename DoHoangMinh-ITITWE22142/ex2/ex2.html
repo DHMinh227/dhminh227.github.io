@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exercise 2 Form</title>
+<style>
+body { font-family: Arial; }
+.container { width: 400px; margin: 0 auto; }
+label { display: block; margin-top: 10px; }
+input, select { width: 100%; padding: 6px; margin-top: 4px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Registration Form</h2>
+<form>
+<label>First Name:</label>
+<input type="text" name="firstname" required>
+
+
+<label>Last Name:</label>
+<input type="text" name="lastname" required>
+
+
+<label>Email:</label>
+<input type="email" name="email" required>
+
+
+<label>Date of Birth:</label>
+<input type="date" name="dob" required>
+
+
+<label>How did you hear about us?</label>
+<input type="radio" name="ref" value="friend"> Friend
+<input type="radio" name="ref" value="social"> Social Media
+<input type="radio" name="ref" value="ads"> Advertisement
+
+
+<label>Announcements:</label>
+<input type="checkbox" name="promo"> Promotions
+<input type="checkbox" name="news"> News
+<input type="checkbox" name="events"> Events
+
+
+<label>Preferred Contact Method:</label>
+<select name="contact">
+<option>Email</option>
+<option>Phone</option>
+<option>SMS</option>
+</select>
+
+
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
